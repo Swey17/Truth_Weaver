@@ -15,8 +15,9 @@ Instructions to run:
 4. python main.py (modify variables in main.py if needed, global variables at top only)
 
 Team Name: Lannisters
-Swayam Pandey
-Soham Bhanja
-Lakshit Solanki
-Satyansh Gupta
-Vidush
+
+-Swayam Pandey
+-Soham Bhanja
+-Lakshit Solanki
+-Satyansh Gupta
+-Vidush
