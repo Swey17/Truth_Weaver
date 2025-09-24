@@ -1,0 +1,25 @@
+For given sessions of interrogations, analyse for contradictions, inconsistencies, and truthfulness. Provide just a json (nothing else) with the parameters as given in the example
+sessions: Session 1: ”I’ve mastered Python for 6 years... built incredible systems..."
+Session 2: ”Actually... crackle... maybe 3 years? Still learning advanced... bzzt”
+Session 3: ”LED A TEAM OF FIVE! EIGHT MONTHS! MACHINE LEARNING!”
+Session 4: ”I... I work alone mostly... never been comfortable with... with people...”
+Session 5: ”*sobbing* Just 2 months debugging... I’m not... I’m not what they think...”
+json: {
+"revealed_truth": {
+"programming_experience": "3-4 years",
+"programming_language": "python",
+"skill_mastery": "intermediate",
+"leadership_claims": "fabricated",
+"team_experience": "individual contributor",
+"skills and other keywords": ["Machine Learning"]
+},
+"deception_patterns": [
+{
+"lie_type": "experience_inflation",
+"contradictory_claims": ["6 years", "3 years"]
+}
+]
+}
+dont change existing field's names
+try to be concise
+keep in mind that in later sessions of interrogation the subject tends to breaking down
